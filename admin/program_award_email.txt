@@ -1,0 +1,82 @@
+<!--- Do not use pound signs in this text, they are reserved for the special codes. --->
+
+<!--- SPECIAL CODES USED IN THIS EMAIL:
+
+#fname# is the program user's first name
+#company_name# is the program's company name
+#credit_desc# is the credit description entered when the program was set up
+#username# is the user's username
+#user_totalpoints# is the calculated total of points the user has available
+ --->
+
+<cfoutput>
+
+<!--- automatically loads the ITC Health logo --->
+<img src="http://www2.itcawards.com/pics/program/#vLogo#">
+<br><br>
+<!--- this displays today's date --->
+#FLGen_DateTimeToDisplay()#
+<br><br>
+Dear #fname#:
+<br><br>
+You made safety your priority - now let us reward you for it!  Log on to the <b>#company_name# Award Program</b> website by clicking on the link below.  Please note that you have <b>thirty (30) days</b> from receipt of this email to use your <b>#credit_desc#</b>.
+
+<ul>
+<li>Log on to <a href="http://www2.itcawards.com">http://www2.itcawards.com</a></li>
+<li>When prompted:</li>
+	<ul>
+	<li>Enter company name <b>??????</b></li>
+	<li>Enter password <b>#username#</b></li>
+	<li>Press the <b>Submit</b> button</li>
+	</ul>
+<li>Click on View Selections to the left of the screen.  You have <b>#user_totalpoints# #credit_desc#s</b> to use to select a Safety Award.</li>
+</ul>
+
+Instructions for Viewing and Selecting a Saftey Award
+<ul>
+<li>Select a <b>#credit_desc#</b> to start browsing through the award selections.  You may select gifts in any award amount to total your <b>#user_totalpoints# #credit_desc#s</b>.  Another option is to make selections up to XXX <b>#credit_desc#s</b> and use your <b>personal</b> credit card to pay the <b>differnce</b>.  Each #credit_desc# equals one dollar.</li>
+<li>To view the selections by category, click on any of the category buttons. to view all of the selections, click on <b>View All</b> at any time.</li>
+<li>Once you have found your award choice, click on the picture and then the box marked <b>Select This Gift</b>.</li>
+<li>You will be instructed to enter your <b>#login_prompt#</b>.  Please enter the number only; do not use spaces or dashes.  If your <b>#login_prompt#</b> is <b>not</b> in our database, your order <b>will not</b> process.</li>
+<li>Once your <b>#login_prompt#</b> is accepted you will be forwarded to the Cart Contents Screen to verify your award selection.</li>
+<li>Should you choose to continue shopping, click on any #credit_desc#.  To remove a selection, clickon the <b>Red X</b>.  If your selections are correct, click on the box marked <b>Checkout</b>.</li>
+<li>Complete your shipping information (i.e. Name, Address).</li>
+<li>It is important to enter your correct <b>email address</b>; your award confirmation will be sent to you via email.</li>
+<li>Awards cannot be delivered to Post Office Boxes; please enter only your <b>residential</b> address.</li>
+<li>If you exceed your <b>#credit_desc#s</b>, your <b>personal</b> credit card is needed to complete the transaction.</li>
+<li>After all of your information is entered click the button marked <b>Process Order</b>.</li>
+</ul>
+
+If you have any questons about this program please contact Sarah Woodland, ITC Awards Administrator, toll free at 1-888-266-6108 or via email at swoodland@itcawards.com.  Congratulations on your award and thank you for choosing safety first.
+<br><br>
+Sincerely,
+<br><br>
+Fleet Management
+
+</cfoutput>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

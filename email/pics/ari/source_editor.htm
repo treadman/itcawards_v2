@@ -1,0 +1,26 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><title>{$lang_theme_code_title}</title>
+	
+	<script language="javascript" type="text/javascript" src="source_editor_files/tiny_mce_popup.js"></script><link href="source_editor_files/editor_popup.css" rel="stylesheet" type="text/css">
+	<script language="javascript" type="text/javascript" src="source_editor_files/source_editor.js"></script></head><body onload="tinyMCEPopup.executeOnLoad('onLoadInit();');" onresize="resizeInputs();" style="display: block;"><div style="margin: 0px; display: block;" id="mcBodyWrapper">
+	<form name="source" onsubmit="saveContent();" action="#">
+		<div style="float: left;" class="title">HTML Source Editor</div>
+
+		<div style="float: right;">
+			<script language="javascript" type="text/javascript">renderWordWrap();</script>
+		</div>
+
+		<textarea name="htmlSource" id="htmlSource" rows="15" cols="100" style="width: 484px; height: 320px; font-family: 'Courier New',Courier,mono; font-size: 12px;" dir="ltr" wrap="soft"></textarea>
+
+		<div class="mceActionPanel">
+			<div style="float: left;">
+				<input name="insert" value="Update" onclick="saveContent();" id="insert" type="button">
+			</div>
+
+			<div style="float: right;">
+				<input name="cancel" value="Cancel" onclick="tinyMCEPopup.close();" id="cancel" type="button">
+			</div>
+		</div>
+	</form>
+</div><iframe style="margin: 0px; display: none;" src="about:blank" id="mcWinIframe" height="100%" width="100%"></iframe></body></html>

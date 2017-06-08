@@ -1,0 +1,251 @@
+/* 
+----------------------------------------------------------------------------- 
+GLOBAL STYLES
+-----------------------------------------------------------------------------*/
+
+html {
+	margin-bottom: 1px;
+}
+* {
+	margin: 0;
+}
+h1, h2, h3, h4, {
+	font-family: verdana, sans-serif;
+	font-weight: normal;
+	letter-spacing: -.1em;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}
+body {
+	background-color: #999999;
+}
+.style1 {color: #136734}
+	/* 
+----------------------------------------------------------------------------- 
+GLOBAL STRUCTURE
+-----------------------------------------------------------------------------*/
+
+#wrapper{
+	min-height: 600px; /* the bottom margin is the negative value of the footer's height */
+	width: 770px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-left: auto;
+	/*background-image: url(pics/background.jpg);*/
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+#header {
+	float: right;
+	height: 152px;
+	width: 770px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	padding-left: 0px;
+	background-image: url(pics/Henkel_Rewards_Board.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-color: #FFFFFF;
+}
+#canvas {
+	float: right;
+	width: 770px;
+	/* background-image: url(pics/henkellogo.jpg); */
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color: #FFFFFF;
+}
+#sidebar {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	float: left;
+	height: 433px;
+	width: 180px;
+}
+.redbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #CC0000;
+	height: 25px;
+	width: 170px;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+#footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	height: 60px;
+	width: 740px;
+	font-size: 10px;
+	font-weight: normal;
+	background-position: right center;
+	float: left;
+	padding-left: 10px;
+	padding-top: 5px;
+	background-image: url(pics/henkel.jpg);
+	background-repeat: no-repeat;
+	padding-right: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	background-color: #FFFFFF;
+}
+#footer a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: underline;
+}
+#footer a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+}
+#footer a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CC0000;
+}
+#footer a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: underline;
+}
+.footercopy {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #f9f9f9;
+	float: left;
+	height: 30px;
+	width: 600px;
+	margin-top: 7px;
+	padding-left: 20px;
+	background-position: center center;
+}
+#content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.3em;
+	font-weight: normal;
+	color: #333333;
+	float: right;
+	width: 500px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 70px;
+}
+#content a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: underline;
+}
+#content a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+#content a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CC0000;
+}
+#content a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: underline;
+}
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #CC0000;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	line-height: 1.4em;
+}
+.sidecopy {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 1.3em;
+	font-weight: normal;
+	color: #000000;
+	width: 160px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #CCCCCC;
+	padding-right: 10px;
+}
+.redbox a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.redbox a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.redbox a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFCC;
+	text-decoration: underline;
+}
+.redbox a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.boldred {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;
+	line-height: 1.4em;
+}
+.italic {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: oblique;
+	font-weight: normal;
+	color: #000000;
+}
