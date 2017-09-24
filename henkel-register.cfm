@@ -98,7 +98,7 @@
 	</cfif>
 	<cfif CONFIRM IS 0><cfset ErrorMessage = ErrorMessage & 'Please confirm that you agree to the terms, conditions and privacy policy<br />'></cfif>
 	<!--- <cfif registration_type IS ""><cfset ErrorMessage = ErrorMessage & 'Please select a registration type<br />'></cfif> --->
-	<cfif ListLast(email,'@') EQ "genpt.com">
+	<cfif ListLast(email,'@') EQ "genpt.com" AND NOT ListFindNoCase("Kip_sunset,Francisco_garcia,Joe_farrow,James_worsham,Chris_brittain",trim(ListFirst(email,'@')))>
 		<cfset ErrorMessage = "We're sorry.  Registration is currently unavailable.<br />">
 	</cfif>
 	<cfif ErrorMessage GT "">
